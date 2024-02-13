@@ -1,0 +1,130 @@
+.dashboard-container {
+	display: flex;
+	padding: 9px;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.mini-table-container {
+	max-width: 355px;
+	background-color: #dae6f2;
+	border-radius: 20px;
+	display: flex;
+	margin-block: 9px;
+	flex-direction: column;
+	gap: 20px;
+	padding: 24px;
+	color: #506173;
+}
+.table-title {
+	color: #224971;
+	font-weight: bold;
+}
+
+.mini-table-body {
+	display: flex;
+	flex-direction: column;
+	gap: 13px;
+	padding-inline: 7px;
+}
+
+.bold-price {
+	font-weight: bold;
+	color: #224971;
+}
+
+.mini-table-head {
+	font-weight: bold;
+	border-radius: 5px;
+	color: white;
+	padding: 7px;
+	margin-bottom: 11px;
+}
+
+.flex-row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 36px;
+}
+.full-flex-row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 80px;
+}
+.full-table-body {
+	display: flex;
+	flex-direction: column;
+	gap: 26px;
+	padding-inline: 7px;
+}
+
+.gray-background {
+	background-color: rgba(80, 97, 115, 0.5);
+}
+.blue-color {
+	color: #224971;
+}
+
+.full-table-container {
+	min-width: 421px;
+	background-color: #dae6f2;
+	border-radius: 20px;
+	margin-block: 9px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	padding: 24px;
+	color: #506173;
+}
+.top-dashboard {
+	display: flex;
+	gap: 10px;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.main-title {
+	font-size: 24px;
+	color: #142433;
+	font-weight: bold;
+	margin-block: 12px;
+}
+.orders{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+.order-item{
+	width: 260px;
+	border-radius: 10px;
+	background-color: #DAE6F2;
+	padding: 16px;
+	display: flex;
+	flex-direction: column;
+gap: 20px;
+}
+.order-sights{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.order-sights div{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.order-number{
+	font-weight: bold;
+	
+}
+.month-template{
+	align-self: flex-end;
+}
