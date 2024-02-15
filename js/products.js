@@ -48,7 +48,6 @@ function createHighDemandElements(products) {
 		var imgArrow = document.createElement('img');
 		imgArrow.src = '/assets/svgs/arrowUp.svg';
 
-		// Append elements
 		divStatistics.appendChild(pStatistics);
 		divStatistics.appendChild(imgArrow);
 

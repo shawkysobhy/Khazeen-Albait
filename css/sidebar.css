@@ -23,7 +23,7 @@
 	flex-direction: column;
 	gap: 30px;
 }
-.sidebar-item {
+.sidebar-item a {
 	display: flex;
 	align-items: center;
 	gap: 18px;
@@ -33,8 +33,15 @@
 	color: #8797a8;
 }
 
-.sidebar-item.active {
+.sidebar-list li .active {
 	color: #224971;
 	font-weight: bold;
 	background-color: #d9d9d9;
+}
+.sidebar-list li a {
+	cursor: pointer;
+}
+.sidebar-list li a:hover {
+	background-color: #d9d9d9;
+	color: #224971;
 }
